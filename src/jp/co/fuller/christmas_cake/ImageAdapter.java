@@ -15,15 +15,15 @@ public class ImageAdapter extends BaseAdapter implements TitleProvider {
     private LayoutInflater mInflater;
 
     private static final String[] titles = {
-            "version 0.1",
-            "version 0.2",
-            "version 0.3",
-            "version 0.4",
-            "version 0.5",
-            "version 0.6",
-            "version 0.7",
-            "version 0.8",
-            "version 0.9"
+            "version 0.1.0",
+            "version 0.1.1",
+            "version 0.2.0",
+            "version 0.3.0",
+            "version 0.3.1",
+            "version 0.4.0",
+            "version 0.4.1",
+            "version 0.5.0",
+            "version 0.6.0"
     };
     private static final int[] images = {
             R.drawable.image01,
