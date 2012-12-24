@@ -1,1 +1,1 @@
-./EATME.rst
+EATME.rst
