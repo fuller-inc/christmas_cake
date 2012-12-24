@@ -1,14 +1,36 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
-
-</RelativeLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/jp.co.fuller.christmas_cake"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+		android:gravity="center_horizontal" android:id="@+id/header_layout"
+		android:orientation="vertical" android:layout_height="wrap_content">
+		
+		<org.taptwo.android.widget.TitleFlowIndicator
+			android:id="@+id/viewflowindic" android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			app:footerLineHeight="2dp"
+			app:footerTriangleHeight="10dp" 
+			app:textColor="#FFFFFFFF" 
+			app:selectedColor="#FFFFC445" 
+			app:footerColor="#FFFFC445" 
+			app:titlePadding="10dp" 
+			app:textSize="11sp" 
+			app:selectedSize="12sp" 
+			android:layout_marginTop="10dip" 
+			app:clipPadding="5dp">
+		</org.taptwo.android.widget.TitleFlowIndicator>
+	</LinearLayout>
+	
+	<org.taptwo.android.widget.ViewFlow
+		android:duplicateParentState="true" 
+		android:id="@+id/viewflow"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+	</org.taptwo.android.widget.ViewFlow>
+	
+</LinearLayout> 
