@@ -14,11 +14,27 @@ public class ImageAdapter extends BaseAdapter implements TitleProvider {
 
     private LayoutInflater mInflater;
 
-    private static final String[] versions = {
-            "0.1"
+    private static final String[] titles = {
+            "version 0.1",
+            "version 0.2",
+            "version 0.3",
+            "version 0.4",
+            "version 0.5",
+            "version 0.6",
+            "version 0.7",
+            "version 0.8",
+            "version 0.9"
     };
     private static final int[] images = {
-            R.drawable.image
+            R.drawable.image01,
+            R.drawable.image02,
+            R.drawable.image03,
+            R.drawable.image04,
+            R.drawable.image05,
+            R.drawable.image06,
+            R.drawable.image07,
+            R.drawable.image08,
+            R.drawable.image09
     };
 
     public ImageAdapter(Context context) {
@@ -52,7 +68,7 @@ public class ImageAdapter extends BaseAdapter implements TitleProvider {
 
     @Override
     public String getTitle(int position) {
-        return versions[position];
+        return titles[position];
     }
 
 }
