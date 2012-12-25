@@ -23,7 +23,8 @@ public class ImageAdapter extends BaseAdapter implements TitleProvider {
             "version 0.4.0",
             "version 0.4.1",
             "version 0.5.0",
-            "version 0.6.0"
+            "version 0.6.0",
+            "version 1.0.0"
     };
     private static final int[] images = {
             R.drawable.image01,
@@ -34,7 +35,8 @@ public class ImageAdapter extends BaseAdapter implements TitleProvider {
             R.drawable.image06,
             R.drawable.image07,
             R.drawable.image08,
-            R.drawable.image09
+            R.drawable.image09,
+            R.drawable.image10
     };
 
     public ImageAdapter(Context context) {

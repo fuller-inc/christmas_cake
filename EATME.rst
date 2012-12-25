@@ -4,6 +4,12 @@ The Fuller's Christmas Cake
 Eat me if you can!
 
 
+Screenshot
+~~~~~~~~~~
+
+.. image:: https://f.cloud.github.com/assets/1053958/30182/de634a7e-4e31-11e2-999b-05fb9296bf40.png
+
+
 Dependencies
 ~~~~~~~~~~~~
 
