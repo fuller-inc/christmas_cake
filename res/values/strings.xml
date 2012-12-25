@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ChristmasCake</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Christmas Cake</string>
+    <string name="version_image">Version Image</string>
     <string name="menu_settings">Settings</string>
 
 </resources>
+
